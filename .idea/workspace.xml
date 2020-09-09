@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb5a0fb-223b-4ee9-a6aa-798e6e17ec0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/array/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/array/IntersectionOfTwoArraysII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/array/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/array/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/array/SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/array/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/array/ValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tree/ConvertSortedArrayToBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tree/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tree/SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tree/TinaryBreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tree/ValidateBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,21 +21,16 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/array/MoveZeroes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/basic/array/ValidSudoku.java">
+        <entry file="file://$PROJECT_DIR$/src/basic/tree/ConvertSortedArrayToBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="10" selection-start-line="10" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,11 +67,19 @@
         <option value="$PROJECT_DIR$/src/basic/array/MoveZeroes.java" />
         <option value="$PROJECT_DIR$/src/basic/array/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/basic/array/ValidSudoku.java" />
+        <option value="$PROJECT_DIR$/src/basic/array/RotateImage.java" />
+        <option value="$PROJECT_DIR$/src/basic/tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/basic/tree/MaximumDepthOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/basic/tree/ValidateBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/basic/tree/SymmetricTree.java" />
+        <option value="$PROJECT_DIR$/src/basic/tree/TinaryBreeLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/basic/tree/ConvertSortedArrayToBinarySearchTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
+    <option name="x" value="26" />
+    <option name="y" value="181" />
     <option name="width" value="1802" />
     <option name="height" value="689" />
   </component>
@@ -114,7 +116,7 @@
               <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,12 +166,14 @@
       <updated>1599398076200</updated>
       <workItem from="1599398081814" duration="1976000" />
       <workItem from="1599455635346" duration="5488000" />
-      <workItem from="1599527890924" duration="1686000" />
+      <workItem from="1599527890924" duration="5500000" />
+      <workItem from="1599658925812" duration="1105000" />
+      <workItem from="1599660417404" duration="4969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9150000" />
+    <option name="totallyTimeSpent" value="19038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,7 +188,7 @@
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2586393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2672786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -202,7 +206,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22526817" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.05363528" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -346,8 +350,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/array/ValidSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/array/RotateImage.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/tree/ValidateBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/tree/SymmetricTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/tree/MaximumDepthOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/tree/TinaryBreeLevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#519#529#0" expanded="true" />
+            <element signature="e#675#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/tree/ConvertSortedArrayToBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
