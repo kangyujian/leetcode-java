@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb5a0fb-223b-4ee9-a6aa-798e6e17ec0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/string/CountAndSay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/string/FirstUniqueCharacterInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/string/ImplementStrstr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/string/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/string/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/string/StringToIntegerAtoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/string/ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/string/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/dp/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/dp/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/dp/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/dp/MaximumSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,11 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/basic/string/CountAndSay.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basic/dp/ClimbingStairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basic/dp/BestTimeToBuyAndSellStock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basic/dp/MaximumSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/basic/dp/HouseRobber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="8" selection-start-line="8" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -83,12 +106,17 @@
         <option value="$PROJECT_DIR$/src/basic/string/StringToIntegerAtoi.java" />
         <option value="$PROJECT_DIR$/src/basic/string/ImplementStrstr.java" />
         <option value="$PROJECT_DIR$/src/basic/string/CountAndSay.java" />
+        <option value="$PROJECT_DIR$/src/basic/string/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/basic/dp/ClimbingStairs.java" />
+        <option value="$PROJECT_DIR$/src/basic/dp/BestTimeToBuyAndSellStock.java" />
+        <option value="$PROJECT_DIR$/src/basic/dp/MaximumSubarray.java" />
+        <option value="$PROJECT_DIR$/src/basic/dp/HouseRobber.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="464" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="1802" />
     <option name="height" value="689" />
   </component>
@@ -100,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -120,24 +147,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,12 +203,13 @@
       <workItem from="1599455635346" duration="5488000" />
       <workItem from="1599527890924" duration="5500000" />
       <workItem from="1599658925812" duration="1105000" />
-      <workItem from="1599660417404" duration="10100000" />
+      <workItem from="1599660417404" duration="10985000" />
+      <workItem from="1599980150032" duration="2550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24169000" />
+    <option name="totallyTimeSpent" value="27604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -207,9 +222,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2672786" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27213824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -227,7 +241,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18593563" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.8140644" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -437,13 +451,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/MergeSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/MergeSortedArray.java" />
     <entry file="file://$PROJECT_DIR$/src/basic/sort/MergeSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -507,10 +515,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/string/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/string/CountAndSay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/dp/ClimbingStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/dp/BestTimeToBuyAndSellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/dp/MaximumSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/dp/HouseRobber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="8" selection-start-line="8" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
