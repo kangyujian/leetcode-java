@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb5a0fb-223b-4ee9-a6aa-798e6e17ec0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middle/array/SetMatrixZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middle/array/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middle/string/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middle/string/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/string/LongestPalindromicSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/special/week1/SumOfAllOddLengthSubArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middle/string/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/middle/string/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/middle/string/LongestSubstringWithoutRepeatingCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="549">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/middle/string/LongestPalindromicSubString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -58,9 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/basic/linkedlist/RemoveNthNodeFromEndOfList.java" />
-        <option value="$PROJECT_DIR$/src/basic/linkedlist/ReverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/basic/linkedlist/MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/src/basic/linkedlist/PalindromeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/basic/linkedlist/LinkedListCycle.java" />
         <option value="$PROJECT_DIR$/src/basic/array/ContainsDuplicate.java" />
@@ -108,7 +113,10 @@
         <option value="$PROJECT_DIR$/src/middle/array/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/middle/array/SetMatrixZeroes.java" />
         <option value="$PROJECT_DIR$/src/middle/string/GroupAnagrams.java" />
+        <option value="$PROJECT_DIR$/src/special/SumOfAllOddLengthSubArrays.java" />
+        <option value="$PROJECT_DIR$/src/special/MaximumSumObtainedOfAnyPermutation.java" />
         <option value="$PROJECT_DIR$/src/middle/string/LongestSubstringWithoutRepeatingCharacters.java" />
+        <option value="$PROJECT_DIR$/src/middle/string/LongestPalindromicSubString.java" />
       </list>
     </option>
   </component>
@@ -119,10 +127,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="143" />
+    <option name="x" value="24" />
+    <option name="y" value="68" />
     <option name="width" value="975" />
-    <option name="height" value="1106" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -132,6 +140,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +153,12 @@
               <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
@@ -161,8 +177,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SumOfAllOddLengthSubArrays">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetcode-java" />
@@ -200,6 +214,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfAllOddLengthSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="special.week1.SumOfAllOddLengthSubArrays" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="special.week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SumOfAllOddLengthSubArrays" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -221,7 +253,10 @@
       <workItem from="1600391282609" duration="708000" />
       <workItem from="1600438575741" duration="1879000" />
       <workItem from="1600440530886" duration="1144000" />
-      <workItem from="1600479273302" duration="5346000" />
+      <workItem from="1600479273302" duration="5430000" />
+      <workItem from="1600485099780" duration="1090000" />
+      <workItem from="1600526142600" duration="3614000" />
+      <workItem from="1600606434709" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="2020-09-13 add dp">
       <created>1599982785524</created>
@@ -234,7 +269,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53508000" />
+    <option name="totallyTimeSpent" value="59632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,10 +281,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
+    <frame x="24" y="68" width="975" height="1013" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5615819" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.8440678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -259,16 +294,17 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896304" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39928487" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18203309" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.52800953" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -280,7 +316,7 @@
       <window_info anchor="right" id="Database" order="8" weight="0.32991362" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5615819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.8440678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -290,16 +326,17 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896304" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39928487" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18203309" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.52800953" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -323,40 +360,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/array/ContainsDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/array/IntersectionOfTwoArraysII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/array/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/array/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/array/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -724,10 +727,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/JDK/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1430" column="27" selection-start-line="1430" selection-start-column="27" selection-end-line="1430" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/special/MaximumSumObtainedOfAnyPermutation.java" />
+    <entry file="file://$PROJECT_DIR$/src/special/week1/SumOfAllOddLengthSubArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/middle/string/LongestSubstringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="549">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/string/LongestPalindromicSubString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
