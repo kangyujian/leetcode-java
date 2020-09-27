@@ -3,7 +3,7 @@ package middle.string;
 /**
  * @author dreamcold
  * time:2020-09-22
- * site:
+ * site:https://leetcode-cn.com/problems/increasing-triplet-subsequence/
  */
 public class IncreasingTripletSubsequence {
     public boolean increasingTriplet(int[] nums) {
