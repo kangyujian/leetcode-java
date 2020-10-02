@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb5a0fb-223b-4ee9-a6aa-798e6e17ec0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middle/tree/BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middle/tree/BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middle/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/tree/KthSmallestElementInABst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/tree/PopulatingNextRightPointersInEachNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middle/string/IncreasingTripletSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/middle/string/IncreasingTripletSubsequence.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +32,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/middle/tree/KthSmallestElementInABst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,9 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/basic/array/ValidSudoku.java" />
-        <option value="$PROJECT_DIR$/src/basic/array/RotateImage.java" />
-        <option value="$PROJECT_DIR$/src/basic/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/basic/tree/MaximumDepthOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/basic/tree/ValidateBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/basic/tree/SymmetricTree.java" />
@@ -99,6 +108,9 @@
         <option value="$PROJECT_DIR$/src/middle/tree/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/middle/string/IncreasingTripletSubsequence.java" />
         <option value="$PROJECT_DIR$/src/middle/tree/BinaryTreeZigzagLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/middle/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/middle/tree/PopulatingNextRightPointersInEachNode.java" />
+        <option value="$PROJECT_DIR$/src/middle/tree/KthSmallestElementInABst.java" />
       </list>
     </option>
   </component>
@@ -111,8 +123,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1046" />
+    <option name="width" value="975" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -147,13 +159,6 @@
               <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="middle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="middle" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +253,9 @@
       <workItem from="1600606434709" duration="4701000" />
       <workItem from="1600784005497" duration="2368000" />
       <workItem from="1601090591606" duration="3445000" />
-      <workItem from="1601178746810" duration="6240000" />
+      <workItem from="1601178746810" duration="7289000" />
+      <workItem from="1601189281267" duration="74000" />
+      <workItem from="1601566681937" duration="3244000" />
     </task>
     <task id="LOCAL-00001" summary="2020-09-13 add dp">
       <created>1599982785524</created>
@@ -261,7 +268,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75050000" />
+    <option name="totallyTimeSpent" value="79417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,8 +281,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34287256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34341252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -293,7 +301,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3122765" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33134684" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -319,27 +327,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/sort/MergeSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/sort/FirstBadVersion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" selection-start-line="19" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/string/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/string/ReverseInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -636,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/middle/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/middle/string/IncreasingTripletSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -674,16 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/middle/tree/BinaryTreeInorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/JDK/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
@@ -707,8 +677,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/middle/tree/BinaryTreeZigzagLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="297">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/tree/BinaryTreeInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/tree/PopulatingNextRightPointersInEachNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/tree/KthSmallestElementInABst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
