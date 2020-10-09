@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb5a0fb-223b-4ee9-a6aa-798e6e17ec0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middle/backtracking/Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middle/backtracking/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middle/backtracking/WordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/sort/SortColors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,12 +30,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/middle/backtracking/WordSearch.java">
+        <entry file="file://$PROJECT_DIR$/src/middle/sort/SortColors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="18" column="13" selection-start-line="8" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="35" selection-start-line="35" selection-end-line="57" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/basic/sort/MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/src/basic/sort/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/basic/string/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/basic/string/ReverseInteger.java" />
@@ -108,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/middle/backtracking/Permutations.java" />
         <option value="$PROJECT_DIR$/src/middle/backtracking/Subsets.java" />
         <option value="$PROJECT_DIR$/src/middle/backtracking/WordSearch.java" />
+        <option value="$PROJECT_DIR$/src/middle/sort/SortColors.java" />
       </list>
     </option>
   </component>
@@ -131,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,12 +145,6 @@
               <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="middle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -161,13 +152,14 @@
               <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="middle" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,7 +249,9 @@
       <workItem from="1601641128085" duration="300000" />
       <workItem from="1601702066563" duration="3656000" />
       <workItem from="1602208754818" duration="155000" />
-      <workItem from="1602208994829" duration="4120000" />
+      <workItem from="1602208994829" duration="5234000" />
+      <workItem from="1602215872797" duration="381000" />
+      <workItem from="1602239259858" duration="2339000" />
     </task>
     <task id="LOCAL-00001" summary="2020-09-13 add dp">
       <created>1599982785524</created>
@@ -270,7 +264,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89968000" />
+    <option name="totallyTimeSpent" value="93802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,7 +279,7 @@
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24190065" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25053996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -301,9 +295,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32896304" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28128725" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38617402" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -320,6 +314,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020-09-13 add dp" />
     <option name="LAST_COMMIT_MESSAGE" value="2020-09-13 add dp" />
@@ -329,13 +349,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/string/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/string/CountAndSay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -735,8 +748,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/middle/backtracking/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="18" column="13" selection-start-line="8" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="702">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/sort/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="35" selection-start-line="35" selection-end-line="57" selection-end-column="5" />
         </state>
       </provider>
     </entry>
