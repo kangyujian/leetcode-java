@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb5a0fb-223b-4ee9-a6aa-798e6e17ec0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middle/backtracking/GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middle/backtracking/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/backtracking/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/backtracking/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/backtracking/WordSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,27 +32,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/middle/backtracking/LetterCombinationsOfAPhoneNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/middle/backtracking/GenerateParentheses.java">
+        <entry file="file://$PROJECT_DIR$/src/middle/backtracking/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="367">
+              <caret line="18" column="13" selection-start-line="8" selection-end-line="40" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -71,9 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/basic/tree/TinaryBreeLevelOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/basic/tree/ConvertSortedArrayToBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/basic/MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/src/basic/sort/MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/src/basic/sort/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/basic/string/ReverseString.java" />
@@ -122,6 +105,9 @@
         <option value="$PROJECT_DIR$/src/middle/map/NumberOfIslands.java" />
         <option value="$PROJECT_DIR$/src/middle/backtracking/LetterCombinationsOfAPhoneNumber.java" />
         <option value="$PROJECT_DIR$/src/middle/backtracking/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/middle/backtracking/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/middle/backtracking/Subsets.java" />
+        <option value="$PROJECT_DIR$/src/middle/backtracking/WordSearch.java" />
       </list>
     </option>
   </component>
@@ -145,7 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,7 +167,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,6 +176,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -268,7 +255,9 @@
       <workItem from="1601189281267" duration="74000" />
       <workItem from="1601566681937" duration="5564000" />
       <workItem from="1601641128085" duration="300000" />
-      <workItem from="1601702066563" duration="2935000" />
+      <workItem from="1601702066563" duration="3656000" />
+      <workItem from="1602208754818" duration="155000" />
+      <workItem from="1602208994829" duration="4120000" />
     </task>
     <task id="LOCAL-00001" summary="2020-09-13 add dp">
       <created>1599982785524</created>
@@ -281,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84972000" />
+    <option name="totallyTimeSpent" value="89968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +285,7 @@
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43358532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24190065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -314,7 +303,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16209774" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28128725" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -340,27 +329,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/string/ImplementStrstr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/string/ValidAnagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/string/FirstUniqueCharacterInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/string/LongestCommonPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -735,13 +703,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/middle/backtracking/GenerateParentheses.java">
+    <entry file="file://$PROJECT_DIR$/src/middle/backtracking/Subsets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="621">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/backtracking/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/backtracking/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/backtracking/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="18" column="13" selection-start-line="8" selection-end-line="40" selection-end-column="5" />
         </state>
       </provider>
     </entry>
