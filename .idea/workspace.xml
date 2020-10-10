@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb5a0fb-223b-4ee9-a6aa-798e6e17ec0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middle/sort/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/sort/TopKFrequentElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,10 +32,16 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/middle/sort/SortColors.java">
+        <entry file="file://$PROJECT_DIR$/src/middle/sort/TopKFrequentElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="35" selection-start-line="35" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="10">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#390#408#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/basic/sort/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/basic/string/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/basic/string/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/basic/string/FirstUniqueCharacterInAString.java" />
@@ -106,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/middle/backtracking/Subsets.java" />
         <option value="$PROJECT_DIR$/src/middle/backtracking/WordSearch.java" />
         <option value="$PROJECT_DIR$/src/middle/sort/SortColors.java" />
+        <option value="$PROJECT_DIR$/src/middle/sort/TopKFrequentElements.java" />
       </list>
     </option>
   </component>
@@ -116,8 +122,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="620" />
-    <option name="y" value="593" />
+    <option name="x" value="535" />
+    <option name="y" value="552" />
     <option name="width" value="1205" />
     <option name="height" value="567" />
   </component>
@@ -129,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +166,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,7 +257,8 @@
       <workItem from="1602208754818" duration="155000" />
       <workItem from="1602208994829" duration="5234000" />
       <workItem from="1602215872797" duration="381000" />
-      <workItem from="1602239259858" duration="2339000" />
+      <workItem from="1602239259858" duration="3086000" />
+      <workItem from="1602293377284" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="2020-09-13 add dp">
       <created>1599982785524</created>
@@ -264,7 +271,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93802000" />
+    <option name="totallyTimeSpent" value="95354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,9 +284,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25053996" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42278618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -297,7 +303,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32896304" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38617402" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20738976" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -339,6 +345,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020-09-13 add dp" />
@@ -349,13 +369,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/string/CountAndSay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/design/ShuffleAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -755,8 +768,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/middle/sort/SortColors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="35" selection-start-line="35" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="162">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/sort/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#408#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
