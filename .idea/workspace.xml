@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb5a0fb-223b-4ee9-a6aa-798e6e17ec0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middle/sort/FindPeakElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/sort/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,11 +40,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/middle/sort/FindPeakElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state relative-caret-position="452">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/middle/sort/FindFirstAndLastPositionOfElementInSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -64,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/basic/string/FirstUniqueCharacterInAString.java" />
         <option value="$PROJECT_DIR$/src/basic/string/ValidAnagram.java" />
         <option value="$PROJECT_DIR$/src/basic/string/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/basic/string/StringToIntegerAtoi.java" />
@@ -115,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/middle/sort/TopKFrequentElements.java" />
         <option value="$PROJECT_DIR$/src/middle/sort/KthLargestElementInAnArray.java" />
         <option value="$PROJECT_DIR$/src/middle/sort/FindPeakElement.java" />
+        <option value="$PROJECT_DIR$/src/middle/sort/FindFirstAndLastPositionOfElementInSortedArray.java" />
       </list>
     </option>
   </component>
@@ -265,7 +278,7 @@
       <workItem from="1602430512866" duration="3438000" />
       <workItem from="1602470677062" duration="8504000" />
       <workItem from="1602505782974" duration="716000" />
-      <workItem from="1602599511621" duration="569000" />
+      <workItem from="1602599511621" duration="1553000" />
     </task>
     <task id="LOCAL-00001" summary="2020-09-13 add dp">
       <created>1599982785524</created>
@@ -278,7 +291,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108828000" />
+    <option name="totallyTimeSpent" value="109812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,7 +306,7 @@
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.48056155" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.48056155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -311,7 +324,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32896304" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.05363528" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6841478" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -377,13 +390,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/dp/HouseRobber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" selection-start-line="8" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/dp/MaximumSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -774,8 +780,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/middle/sort/FindPeakElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state relative-caret-position="452">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/sort/FindFirstAndLastPositionOfElementInSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
         </state>
       </provider>
     </entry>
