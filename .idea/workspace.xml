@@ -29,7 +29,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/middle/dp/JumpGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/basic/string/ImplementStrstr.java" />
         <option value="$PROJECT_DIR$/src/basic/string/CountAndSay.java" />
         <option value="$PROJECT_DIR$/src/basic/string/LongestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/basic/dp/ClimbingStairs.java" />
@@ -95,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/middle/sort/MergeIntervals.java" />
         <option value="$PROJECT_DIR$/src/middle/sort/SearchInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/middle/sort/SearchA2dMatrixII.java" />
+        <option value="$PROJECT_DIR$/src/middle/dp/JumpGame.java" />
       </list>
     </option>
   </component>
@@ -119,6 +129,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,11 +148,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="middle" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="middle" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +261,8 @@
       <workItem from="1602839232899" duration="602000" />
       <workItem from="1602900031772" duration="403000" />
       <workItem from="1602937173420" duration="1770000" />
-      <workItem from="1602993265837" duration="543000" />
+      <workItem from="1602993265837" duration="1496000" />
+      <workItem from="1602999100996" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="2020-09-13 add dp">
       <created>1599982785524</created>
@@ -257,7 +275,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117946000" />
+    <option name="totallyTimeSpent" value="119254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,7 +289,7 @@
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25971922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2640389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -289,7 +307,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32896304" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24076281" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6054827" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -355,13 +373,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/math/CountPrimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/math/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -761,6 +772,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/dp/JumpGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
