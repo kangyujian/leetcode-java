@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb5a0fb-223b-4ee9-a6aa-798e6e17ec0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/middle/dp/LongestIncreasingSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,12 +30,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/middle/dp/UniquePaths.java">
+        <entry file="file://$PROJECT_DIR$/src/middle/dp/LongestIncreasingSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="389">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="12" selection-end-line="35" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,8 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/basic/string/LongestCommonPrefix.java" />
-        <option value="$PROJECT_DIR$/src/basic/dp/ClimbingStairs.java" />
         <option value="$PROJECT_DIR$/src/basic/dp/BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/basic/dp/MaximumSubarray.java" />
         <option value="$PROJECT_DIR$/src/basic/dp/HouseRobber.java" />
@@ -105,6 +104,8 @@
         <option value="$PROJECT_DIR$/src/middle/sort/SearchA2dMatrixII.java" />
         <option value="$PROJECT_DIR$/src/middle/dp/JumpGame.java" />
         <option value="$PROJECT_DIR$/src/middle/dp/UniquePaths.java" />
+        <option value="$PROJECT_DIR$/src/middle/dp/CoinChange.java" />
+        <option value="$PROJECT_DIR$/src/middle/dp/LongestIncreasingSubsequence.java" />
       </list>
     </option>
   </component>
@@ -128,6 +129,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,8 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +265,9 @@
       <workItem from="1602993265837" duration="1496000" />
       <workItem from="1602999100996" duration="355000" />
       <workItem from="1603206868818" duration="443000" />
-      <workItem from="1603248287229" duration="53000" />
+      <workItem from="1603248287229" duration="857000" />
+      <workItem from="1603251635142" duration="350000" />
+      <workItem from="1603444235782" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="2020-09-13 add dp">
       <created>1599982785524</created>
@@ -277,7 +280,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119857000" />
+    <option name="totallyTimeSpent" value="121990000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +295,7 @@
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27321815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28293738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -308,9 +311,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32896304" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.6293206" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2181168" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35160905" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -376,16 +379,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/math/RomanToInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="11" selection-start-line="11" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/other/NumberOfOneBits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -768,6 +761,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/dp/CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/middle/dp/UniquePaths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -775,10 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/middle/dp/CoinChange.java">
+    <entry file="file://$PROJECT_DIR$/src/middle/dp/LongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="389">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="12" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
